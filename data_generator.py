@@ -22,7 +22,7 @@ nb_neighbors = 5
 # temperature parameter T
 T = 0.38
 
-image_folder = '/mnt/code/ImageNet-Downloader/image/resized'
+image_folder = '/share1/dataset/imagenet/ILSVRC2014_DET_train'
 
 
 def get_soft_encoding(image_ab, nn_finder, nb_q):
